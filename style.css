@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added to ensure padding/margin are accounted for in width calculations */
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(236, 24, 24); 
+    overflow: hidden;
+    padding: 20px;
+    color: white;
+}
+
+.dp {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white; 
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px; /* Added spacing between image and bio */
+}
+
+.bio {
+    float: left;
+    padding: 30px 0;
+    color: white;
+}
+
+.contact {
+    float: right;
+    padding: 30px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+hr {
+    border: 3px solid white;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: none;
+}
+
+.content {
+    overflow: hidden; /* Added to clear floats in .content */
+    padding: 20px;
+}
+
+.leftp {
+    width: 30%;
+    float: left;
+     
+    padding: 10px;
+}
+
+.rightp {
+    width: 70%;
+    float: left;
+    
+    padding: 10px;
+}
+
+.dc {
+    clear: both; /* Clears the float for any subsequent elements */
+}
+
+
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
